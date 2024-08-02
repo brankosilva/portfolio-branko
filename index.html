@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branko Silva portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./estilo.css">
+
+    <meta name="description" content="Branko Silva portfolio">
+    <meta name="keywords" content="desarrollo web, portfolio, webflow, html, css">
+
+</head>
+<body>
+    <header class="main-header">
+            <nav class="main-nav">
+
+                <button class="main-nav-menu">
+                    <span class="line1__main-nav"></span>
+                    <span class="line2__main-nav"></span>
+                    <span class="line3__main-nav"></span>
+                </button>
+
+                <ul class="main-nav-links">
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#studies"> Studies </a></li>
+                    <li><a href="#about-me"> About me </a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="main-button-color" id="color-mode"><i class="bi bi-brightness-high-fill"></i>
+            </div>
+            
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-inner-content">
+
+                        <div class="hero-inner-containter-img">                        
+                            <div class="hero-inner-content-img">
+                                <img class="photo1" src="./img/br-normal.png" alt="branko">
+                                <img class="photo2" src="./img/br-risa.png" alt="branko">
+                            </div>
+                        </div>
+
+                        <div class="hero-inner-content-text">
+                            <h1 class="hero-title">Branko Silva <span class="mano">👋</span></h1>
+                            <h2 class="hero-subtitle">Web developer</h2>
+                            <p class="paragraph">I'm Branko, an enthusiastic web developer with the objective of transforming ideas into attractive and functional websites.</p> 
+                            <p class="paragraph">My approach includes custom coding in HTML, CSS, and JavaScript, as well as implementing no-code solutions through platforms like Webflow and WordPress.</p>
+                        </div>
+
+                    </div>
+                    <button class="flecha">
+                        <div>
+                            <a class="flecha-button" href="#about-me"><i class="bi bi-chevron-double-down"></i>
+                            </a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section portfolio" id="portfolio">
+            <div class="container">
+
+                <h2 class="section-title" id="portfolio-title">Portfolio</h2>
+                <p class="paragraph">Here I present some of the projects I've worked on recently.</p>
+
+                    <div class="cards-projects row clearfix">
+
+                        <div class="project-content col-lg-4 col-md-12">
+                            <div class="project-content-header">
+                                <h2 class="project-content-header-title"><strong>Heladería Auguri</strong>
+                                </h2>
+                                <div class="project-content-header-icons">
+                                    <a class="icon-project" href="https://github.com/brankosilva/heladeria-auguri"  target="_blank" data-tooltip="View repository"><i class="bi bi-github"></i>
+                                    </a>
+                                
+                                    <a class="icon-project" href="https://brankosilva.github.io/heladeria-auguri/" target="_blank" data-tooltip="View website"><i class="bi bi-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="project-content-text m-t-0 m-b-5">Website project for an Ice Cream Shop in Buenos Aires
+                            </h3>
+                            <div class="project-content-img-skills">
+                                <div class="project-content-img img-post m-b-15">
+                                    <img src="./img/auguri/auguri fondo.png" alt="Auguri fondo">
+                                </div>
+                                <ul class="project-skills skills-list">
+                                    <li class="project-skill-card skill card-skill">HTML</li>
+                                    <li class="project-skill-card skill card-skill">CSS</li>
+                                    <li class="project-skill-card skill card-skill">Bootstrap</li>
+                                    <li class="project-skill-card skill card-skill">SASS & SCSS</li>
+                                    <li class="project-skill-card skill card-skill">Javascript</li>
+                                    <li class="project-skill-card skill card-skill">GIT & GITHUB</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-content col-lg-4 col-md-12">
+                            <div class="project-content-header">
+                                <h2 class="project-content-header-title"><strong>Growth</strong>
+                                </h2>
+                                <div class="project-content-header-icons">
+                                    <a class="icon-project" href="https://domestika-webflow-proyecto.webflow.io/" target="_blank" data-tooltip="View website"><i class="bi bi-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="project-content-text m-t-0 m-b-5">Domestika final project, landing page for a marketing agency
+                            </h3>
+                            <div class="project-content-img-skills">
+                                <div class="project-content-img img-post m-b-15">
+                                    <img src="./img/growth/Growth fondo.png" alt="Auguri fondo">
+                                </div>
+                                <ul class="project-skills skills-list">
+                                    <li class="project-skill-card skill card-skill">Webflow</li>
+                                    <li class="project-skill-card skill card-skill">No-code</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-content col-lg-4 col-md-12">
+                            <div class="project-content-header">
+                                <h2 class="project-content-header-title"><strong>Defy-Hi</strong>
+                                </h2>
+                                <div class="project-content-header-icons">
+                                    <a class="icon-project" href="https://www.defyhi.com/" target="_blank" data-tooltip="View website"><i class="bi bi-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="project-content-text m-t-0 m-b-5">Landing page project in Webflow for an Australian industrial company
+                            </h3>
+                            <div class="project-content-img-skills">
+                                <div class="project-content-img img-post m-b-15">
+                                    <img src="./img/defy-hi/DEFY-hi fondo.png" alt="Auguri fondo">
+                                </div>
+                                <ul class="project-skills skills-list">
+                                    <li class="project-skill-card skill card-skill">Webflow</li>
+                                    <li class="project-skill-card skill card-skill">No-code</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-content col-lg-4 col-md-12">
+                            <div class="project-content-header">
+                                <h2 class="project-content-header-title"><strong>Cafe Oslo</strong>
+                                </h2>
+                                <div class="project-content-header-icons">
+                                    <a class="icon-project" href="https://github.com/brankosilva/cafe-oslo"  target="_blank" data-tooltip="View repository"> <i class="bi bi-github"></i>
+                                    </a>
+                                
+                                    <a class="icon-project" href="https://brankosilva.github.io/cafe-oslo/" target="_blank" data-tooltip="View website"><i class="bi bi-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="project-content-text m-t-0 m-b-5">Landing page project in HTML and CSS for a coffee shop in Barcelona
+                            </h3>
+                            <div class="project-content-img-skills">
+                                <div class="project-content-img img-post m-b-15">
+                                    <img src="./img/cafe oslo/cafe-oslo fondo.png" alt="Auguri fondo">
+                                </div>
+                                <ul class="project-skills skills-list">
+                                    <li class="project-skill-card skill card-skill">HTML</li>
+                                    <li class="project-skill-card skill card-skill">CSS</li>
+                                    <li class="project-skill-card skill card-skill">Javascript</li>
+                                    <li class="project-skill-card skill card-skill">GIT & GITHUB</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                <div class="section-footer">
+                    <p>Portfolio</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section studies" id="studies">
+            <div class="container">
+
+                <h2 class="section-title title-studies" id="experience-title">Studies</h2>
+
+                <div class="studies-content">
+                    <article class="study-card" aria-labelledby="web-development">
+                        <div class="study-card-content">
+                            <div class="study-card-text">
+                                <span class="study-card-year">2023</span>
+                                <h2 class="study-card-title">Web development</h2>
+                                <p class="study-card-institute">Coderhouse</p>
+                            </div>
+                            <a class="study-card-link" href="https://www.coderhouse.com/certificados/65080f7de49d22e54d3a0a5d?lang" target="_blank" data-tooltip="View degree">
+                                <i class="bi bi-link"></i>
+                            </a>
+                        </div>
+                        <ul class="skills-list cards-skills cards-list-studies">
+                            <li class="card-skill-study skill card-skill">HTML</li>
+                            <li class="card-skill-study skill card-skill">CSS</li>
+                            <li class="card-skill-study skill card-skill">GIT &amp; GITHUB</li>
+                            <li class="card-skill-study skill card-skill">Bootstrap</li>
+                            <li class="card-skill-study skill card-skill">SASS &amp; SCSS</li>
+                        </ul> 
+                    </article>
+    
+                    <article class="study-card" aria-labelledby="webflow">
+                        <div class="study-card-content">
+                            <div class="study-card-text">
+                                <span class="study-card-year">2023</span>
+                                <h2 class="study-card-title" id="webflow-title">Webflow</h2>
+                                <p class="study-card-institute">Domestika</p>
+                            </div>
+                            <a class="study-card-link" href="https://drive.google.com/file/d/1qnUn2XGkZs6DgNZlbkgKsW4gHm7yEffc/view?usp=sharing" target="_blank" data-tooltip="View degree">
+                                <i class="bi bi-link"></i>
+                            </a>
+                        </div>
+                        <ul class="skills-list cards-skills cards-list-studies">
+                            <li class="card-skill-study skill card-skill">No-code</li>
+                        </ul> 
+                    </article>
+    
+                    <article class="study-card" aria-labelledby="wordpress-title">
+                        <div class="study-card-content">
+                            <div class="study-card-text">
+                                <span class="study-card-year">2021</span>
+                                <h2 class="study-card-title" id="wordpress-title">Wordpress</h2>
+                                <p class="study-card-institute">Coderhouse</p>
+                            </div>
+                            <a class="study-card-link" href="https://www.coderhouse.com/certificados/6130f7b6486a4f00102f4741" target="_blank" data-tooltip="View degree">
+                                <i class="bi bi-link"></i>
+                            </a>
+                        </div>
+                        <ul class="skills-list cards-skills cards-list-studies">
+                            <li class="card-skill-study skill card-skill">No-code</li>
+                            <li class=" card-skill-study skill card-skill">CSS</li>
+    
+                        </ul> 
+                    </article>
+    
+                    <article class="study-card" aria-labelledby="web-development-responsive">
+                        <div class="study-card-content">
+                            <div class="study-card-text">
+                                <span class="study-card-year">2021</span>
+                                <h2 class="study-card-title" id="web-development-responsive-title">Web development</h2>
+                                <p class="study-card-institute">Domestika</p>
+                            </div>
+                            <a class="study-card-link" href="https://drive.google.com/file/d/1ijlaHHU8Q-iel5fLDtkEwtXBH_J6isgW/view?usp=sharing" target="_blank" data-tooltip="View degree">
+                                <i class="bi bi-link"></i>
+                            </a>
+                        </div>
+                        <ul class="skills-list cards-skills cards-list-studies">
+                            <li class="card-skill-study skill card-skill">HTML</li>
+                            <li class="card-skill-study skill card-skill">CSS</li>
+                        </ul> 
+                    </article>
+                </div>
+
+                <div class="section-footer">
+                    <p>Studies</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section about-me" id="about-me">
+            <div class="container">
+
+                <h2 class="section-title" id="about-me-title">About me</h2>
+                <p class="paragraph paragraph-about-me">In 2020, I graduated as a Higher Technician in Tourism. Since then, my curiosity and passion for learning have led me down an unexpected path. In 2021, I decided to immerse myself in the world of web development and no-code platforms, such as <a href="https://www.coderhouse.com/certificados/6130f7b6486a4f00102f4741" target="_blank">Wordpress</a></p>
+                
+                <p class="paragraph paragraph-about-me">Throughout my journey as a web developer, I have had the opportunity to work on various projects. From personal websites to projects for small businesses.
+                </p>
+
+                <p class="paragraph paragraph-about-me">In 2023, I completed my career in <a href="https://www.coderhouse.com/certificados/65080f7de49d22e54d3a0a5d?lang" target="_blank">Web development</a> in Coderhouse and completed training in <a href="https://www.domestika.org/es/certificates/9f36e3ecc3164840ad0562f478efdeb8" target="_blank">Webflow</a>, one of the most emerging no-code platforms.
+                </p>
+
+                <p class="paragraph paragraph-mini"> see full information in my <a href="https://www.linkedin.com/in/branko-emmanuel-silva/" target="_blank">Linkedln profile</a>
+                </p>
+
+                <ul class="skills-list">
+                    <h2 class="skills-titles">Skills</h2>
+                    <li class="skill">HTML5</li>
+                    <li class="skill">CSS3</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">Bootstrap</li>
+                    <li class="skill">SASS & SCSS</li>
+                    <li class="skill">Git & GitHub</li>
+                    <li class="skill">Design Responsive</li>
+                    <li class="skill">No-code</li>
+                </ul>
+
+                <ul class="skills-list">
+                    <h2 class="skills-titles">Software</h2>
+                    <li class="skill">Visual Studio Code</li>
+                    <li class="skill">Photopea</li>
+                    <li class="skill">Figma</li>
+                </ul>
+
+                <ul class="skills-list">
+                    <h2 class="skills-titles">No-Code</h2>
+                    <li class="skill">Wordpress</li>
+                    <li class="skill">Webflow</li>
+                </ul>
+
+                <ul class="skills-list">
+                    <h2 class="skills-titles">Languages</h2>
+                    <li class="skill">Spanish (Native)</li>
+                    <li class="skill">English (C1 Advanced)</li>
+                    <li class="skill">Portuguese (Intermediate)</li>
+
+                </ul>
+
+                <div class="section-footer">
+                    <p>About me</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container">
+
+                <h2 class="section-title" id="contact-title">Contact</h2>
+                <p class="paragraph">Hello! Thank you for visiting my portfolio. I'm excited to learn more about your ideas and how I can help bring them to the web. Whether you have questions, are planning a new project, or just want to chat about creative possibilities, I'm here for us to develop it together.</p>
+
+                <p class="paragraph">You can write to me at  <a class="mail" href="mailto:brankoemmanuelsilva@gmail.com" target="_blank">brankoemmanuelsilva@gmail.com</a></p>
+
+
+                <div class="section-footer">
+                    <p>Contact</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="main-footer-items">
+
+                <a class="redes" href="https://www.instagram.com/brankosilva_/" data-tooltip="instagram">
+                    <div class="redes-button"><i class="bi bi-instagram"></i></div>
+                </a>
+
+                <a class="redes" href="https://github.com/brankosilva" data-tooltip="github">
+                    <div class="redes-button"><i class="bi bi-github"></i></div>
+                </a>
+
+                <a class="redes" href="https://www.linkedin.com/in/branko-emmanuel-silva/" data-tooltip="Linkedln">
+                    <div class="redes-button"><i class="bi bi-linkedin"></i></div>
+                </a>
+
+                <p class="firma">Branko Emmanuel Silva</p>
+
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
