@@ -82,11 +82,11 @@
             <div class="container">
 
                 <h2 class="section-title" id="portfolio-title">Portfolio</h2>
-                <p class="paragraph">Here I present some of the projects I've worked on recently.</p>
+                <p class="portfolio-subtitle paragraph">Here I present some of the projects I've worked on recently.</p>
 
                     <div class="cards-projects row clearfix">
 
-                        <div class="project-content col-lg-4 col-md-12">
+                        <div class="project-content col-lg-4 col-md-12" data-aos="fade-right" data-aos-duration="2000">
                             <div class="project-content-header">
                                 <h2 class="project-content-header-title"><strong>Heladería Auguri</strong>
                                 </h2>
@@ -115,7 +115,7 @@
                             </div>
                         </div>
 
-                        <div class="project-content col-lg-4 col-md-12">
+                        <div class="project-content col-lg-4 col-md-12" data-aos="fade-left" data-aos-duration="2000">
                             <div class="project-content-header">
                                 <h2 class="project-content-header-title"><strong>Growth</strong>
                                 </h2>
@@ -137,7 +137,7 @@
                             </div>
                         </div>
 
-                        <div class="project-content col-lg-4 col-md-12">
+                        <div class="project-content col-lg-4 col-md-12" data-aos="fade-right" data-aos-duration="2000">
                             <div class="project-content-header">
                                 <h2 class="project-content-header-title"><strong>Defy-Hi</strong>
                                 </h2>
@@ -159,7 +159,7 @@
                             </div>
                         </div>
 
-                        <div class="project-content col-lg-4 col-md-12">
+                        <div class="project-content col-lg-4 col-md-12" data-aos="fade-left" data-aos-duration="2000">
                             <div class="project-content-header">
                                 <h2 class="project-content-header-title"><strong>Cafe Oslo</strong>
                                 </h2>
@@ -279,7 +279,7 @@
             </div>
         </section>
 
-        <section class="section about-me" id="about-me">
+        <section class="section about-me" id="about-me" data-aos="fade-up" data-aos-duration="2000">
             <div class="container">
 
                 <h2 class="section-title" id="about-me-title">About me</h2>
@@ -334,7 +334,7 @@
             </div>
         </section>
 
-        <section class="section contact" id="contact">
+        <section class="section contact" id="contact" data-aos="fade-up" data-aos-duration="2000">
             <div class="container">
 
                 <h2 class="section-title" id="contact-title">Contact</h2>
@@ -355,20 +355,23 @@
     <footer class="main-footer">
         <div class="container">
             <div class="main-footer-items">
+                <div class="main-footer-redes" data-aos="fade-right" data-aos-duration="1500">
+                    <a class="redes" href="https://www.instagram.com/brankosilva_/" data-tooltip="instagram">
+                        <div class="redes-button"><i class="bi bi-instagram"></i></div>
+                    </a>
 
-                <a class="redes" href="https://www.instagram.com/brankosilva_/" data-tooltip="instagram">
-                    <div class="redes-button"><i class="bi bi-instagram"></i></div>
-                </a>
+                    <a class="redes" href="https://github.com/brankosilva" data-tooltip="github">
+                        <div class="redes-button"><i class="bi bi-github"></i></div>
+                    </a>
 
-                <a class="redes" href="https://github.com/brankosilva" data-tooltip="github">
-                    <div class="redes-button"><i class="bi bi-github"></i></div>
-                </a>
+                    <a class="redes" href="https://www.linkedin.com/in/branko-emmanuel-silva/" data-tooltip="Linkedln">
+                        <div class="redes-button"><i class="bi bi-linkedin"></i></div>
+                    </a>
+                </div>
 
-                <a class="redes" href="https://www.linkedin.com/in/branko-emmanuel-silva/" data-tooltip="Linkedln">
-                    <div class="redes-button"><i class="bi bi-linkedin"></i></div>
-                </a>
-
-                <p class="firma">Branko Emmanuel Silva</p>
+                <div class="main-footer-firma" data-aos="fade-left" data-aos-duration="1500">
+                    <p class="firma">Branko Emmanuel Silva</p>
+                </div>
 
             </div>
         </div>
@@ -376,10 +379,10 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="javascript.js"></script>
 </body>
 </html>

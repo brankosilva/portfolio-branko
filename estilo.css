@@ -331,10 +331,32 @@ a {
     position: absolute;
     background-color: transparent;
     color: var(--clr-gray);
-    transform: scale(1.4);
+    font-size: 2rem;
     border: none;
     left: 50%;
     bottom: 2rem;
+    
+    animation-name: scroll-icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 2, 2);
+    animation-delay: 0;
+    animation-direction: normal;
+    transition: .3s;
+}
+
+@keyframes scroll-icon {
+    0% {
+        transform: translateY(0) translateX(-50%);
+    }
+
+    75% {
+        transform: translateY(-1rem) translateX(-50%);
+    }
+
+    100% {
+        transform: translateY(0) translateX(-50%);
+    }
 }
 
 .flecha-button:hover {
@@ -379,6 +401,10 @@ a {
 }
 
 /************************ section portfolio  ***********************/
+
+.portfolio-subtitle {
+    margin-bottom: 2rem;
+}
 
 .cards-projects {
     display: grid;
@@ -740,10 +766,15 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    margin-bottom: 3rem;
 }
 
-.redes {
+.main-footer-redes {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
     font-size: 1.8rem;
+
 }
 
 .main-footer-items a {
@@ -756,7 +787,7 @@ a {
     transition: all 0.5s ease 0s;
 }
 
-.main-footer-items > p {
+.main-footer-firma > p {
     margin-left: auto;
     color: var(--clr-gray);
     font-size: 1rem;
