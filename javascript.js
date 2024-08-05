@@ -1,22 +1,18 @@
-var toggle = document.getElementById('color-mode');
-var body = document.querySelector('body');
+const menu = document.querySelector(".main-nav > ul");
+const openMenu = document.querySelector("#openmenu");
+const closeMenu = document.querySelector("#closemenu");
+const menuItems = document.querySelectorAll(".main-nav > ul > li")
 
-toggle.onclick = function(){
-    toggle.classList.toggle('active');
-    body.classList.toggle('active');
-}
+openMenu.addEventListener("click", () => {
+    menu.classList.add("visible");
+})
 
-document.querySelector(".main-nav-menu").addEventListener("click", animatemenu);
+closeMenu.addEventListener("click", () => {
+    menu.classList.remove("visible");
+})
 
-var line1__mainnav = document.querySelector(".line1__main-nav");
-var line2__mainnav = document.querySelector(".line2__main-nav");
-var line3__mainnav = document.querySelector(".line3__main-nav");
-var main_nav = document.querySelector("ul");
-
-function animatemenu(){
-    line1__mainnav.classList.toggle("activeline1__main-nav");
-    line2__mainnav.classList.toggle("activeline2__main-nav");
-    line3__mainnav.classList.toggle("activeline3__main-nav");
-
-    main_nav.classList.toggle("main-nav-links");
-}
+menuItems.forEach(item => {
+    item.addEventListener("click", () => {
+        menu.classList.remove("visible");
+    })
+})
