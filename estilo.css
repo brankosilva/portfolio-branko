@@ -382,6 +382,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     padding-inline: 1rem;
+    margin-bottom: 4rem;
 
 }
 
