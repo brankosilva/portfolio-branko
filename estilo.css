@@ -533,7 +533,11 @@ a {
     row-gap: 2rem;
     align-items: start;
     margin-bottom: 4rem;
-    }
+}
+
+.title-studies {
+    margin-bottom: 3rem;
+}
 
 .study-card {
     background-color: var(--clr-gray-alt);
