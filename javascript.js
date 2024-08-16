@@ -16,3 +16,21 @@ menuItems.forEach(item => {
         menu.classList.remove("visible");
     })
 })
+
+
+//identify the toggle switch HTML element
+const temaClaro = () => {
+    document.querySelector("body").setAttribute("data-bs-theme", "light");
+    document.querySelector("#dl-icon").setAttribute("class", "bi bi-moon-fill");
+}
+
+const temaOscuro = () => {
+    document.querySelector("body").setAttribute("data-bs-theme", "dark");
+    document.querySelector("#dl-icon").setAttribute("class", "bi bi-sun-fill");
+}
+
+const cambiarTema = () => {
+    document.querySelector("body").getAttribute("data-bs-theme") === "dark"?
+    temaClaro() : temaOscuro();
+}
+
